@@ -1,5 +1,6 @@
 ```
-C02Y10B4JGH5:~ i342116$ docker run -it devopsdockeruh/pull_exercise
+//Start the image
+:~ neeraj$ docker run -it devopsdockeruh/pull_exercise
 ...
 ...
 Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
