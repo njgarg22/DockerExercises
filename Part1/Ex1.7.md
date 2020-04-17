@@ -1,4 +1,9 @@
 ```
+~ neeraj$ cat curl.sh
+echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;
+```
+
+```
 //Dockerfile
 ~ neeraj$ cat Dockerfile 
 FROM ubuntu:16.04
