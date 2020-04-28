@@ -50,3 +50,8 @@ CMD ["npm", "start"]
 //Run the backend image in a container
 ~ neeraj$ docker run -p 8000:8000 -v $(pwd)/logs.txt:/usr/src/app/logs.txt -d neeraj/backendexample
 ```
+
+```
+//Open frontend in browser and click on `Press to test`
+http://localhost:5000/
+```
