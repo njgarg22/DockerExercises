@@ -1,3 +1,5 @@
+```
+~ neeraj$ cat docker-compose.yml 
 version: '3.5'
 services:
     frontendservice:
@@ -27,3 +29,4 @@ services:
         environment:
             - POSTGRES_USER=neeraj
             - POSTGRES_PASSWORD=example
+```
